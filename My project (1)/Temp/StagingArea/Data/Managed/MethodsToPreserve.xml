@@ -1,0 +1,9 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ApiCalls">
+			<method name="OnGenerateIntegersButtonClicked"/>
+			<method name="OnGenerateIntegerSequencesButtonClicked"/>
+			<method name="OnGetUsageButtonClicked"/>
+		</type>
+	</assembly>
+</linker>

@@ -323,7 +323,6 @@ UnityEngine.Jobs.TransformAccessArray::GetSortedTransformAccess
 UnityEngine.Jobs.TransformAccessArray::DestroyTransformAccessArray
 UnityEngine.Jobs.TransformAccessArray::SetCapacity
 UnityEngine.Jobs.TransformAccessArray::SetTransforms
-UnityEngine.JsonUtility::FromJsonInternal
 UnityEngine.Light::get_useColorTemperature
 UnityEngine.Light::get_bounceIntensity
 UnityEngine.Light::get_colorTemperature

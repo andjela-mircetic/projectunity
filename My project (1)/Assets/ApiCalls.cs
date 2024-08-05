@@ -108,14 +108,28 @@ public class IntegerSequenceWrapper
 }
 
     [AOT.MonoPInvokeCallback(typeof(GenerateIntegerSequencesCallback))]
-    private static void OnGenerateIntegerSequencesCompleted(System.IntPtr result)
+private static void OnGenerateIntegerSequencesCompleted(System.IntPtr result)
 {
     string resultString = Marshal.PtrToStringAuto(result);
+    string[] sequences = resultString.Split(';');
+    List<List<int>> sequenceList = new List<List<int>>();
 
-    string json = "{\"sequences\":" + resultString + "}";
+    foreach (string seq in sequences)
+    {
+        string[] numbers = seq.Trim('[', ']').Split(',');
+        List<int> intList = new List<int>();
+        foreach (string number in numbers)
+        {
+            if (int.TryParse(number, out int value))
+            {
+                intList.Add(value);
+            }
+        }
+        sequenceList.Add(intList);
+    }
 
-
-    IntegerSequenceWrapper wrapper = JsonUtility.FromJson<IntegerSequenceWrapper>(json);
+    IntegerSequenceWrapper wrapper = new IntegerSequenceWrapper();
+    wrapper.sequences = sequenceList;
 
     List<string> resultStrings = new List<string>();
     if (wrapper != null && wrapper.sequences != null)
@@ -131,9 +145,7 @@ public class IntegerSequenceWrapper
     {
         instance.DisplayResult(resultStrings.ToArray());
     }
-
-    }
-
+}
 
     public InputField inputN2;
     public InputField decimalPlaces2;
