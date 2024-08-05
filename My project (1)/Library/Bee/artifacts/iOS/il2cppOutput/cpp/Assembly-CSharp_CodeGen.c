@@ -9,69 +9,259 @@
 #include "codegen/il2cpp-codegen-metadata.h"
 
 
+extern const RuntimeMethod* ApiCalls_OnGenerateBlobsCompleted_m60D66F48F022D077000F39F1A79F6826FBA32517_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGenerateDecimalFractionsCompleted_m7866C40D09B92DC4E0E8EFB43FB0DC84EBD41F57_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGenerateGaussiansCompleted_m5B27D9238AD4E9AA1357E21907F918DC804708E5_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGenerateIntegerSequencesCompleted_mE809FDD0E6A3A369F7974B8082796B004C6185CC_RuntimeMethod_var;
 extern const RuntimeMethod* ApiCalls_OnGenerateIntegersCompleted_m5BDCB967A094A39CD8058C7A066A7AE9A5E181C9_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGenerateStringsCompleted_m8F6C705D5A5EF381FE64BF9F39449CDDA30E7F5C_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGenerateUUIDsCompleted_m57FAF69518EE0D2D8B32647BFE69C5DB09322C82_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnGetUsageCompleted_mA33D0E2283FCBD7C2F7ECBE6EC3243F3A2743CC1_RuntimeMethod_var;
+extern const RuntimeMethod* ApiCalls_OnVerifySignatureCompleted_mF71DEABD354CA52F9E04136904D2B21890AFFF60_RuntimeMethod_var;
 
 
 
 extern void ApiCalls_initializeAPI_m09E9CD1351FE23E5D943B12E197824ECA107CB5B (void);
 extern void ApiCalls_generateIntegers_mA99008299FB996BE09C11706C2DF594386F40FD1 (void);
+extern void ApiCalls_generateIntegerSequences_m1BF569F865752F843680EF9DC8EA24B56DD6D995 (void);
+extern void ApiCalls_generateDecimalFractions_m549F7EE1422962A88F442C0C32DF425F799C82FF (void);
+extern void ApiCalls_generateGaussians_mB1560078C109EE1D22A484BB737C7A7C4718861A (void);
+extern void ApiCalls_generateStrings_m46C803A04503A3136D0CCA550AEC4C3389553DAD (void);
+extern void ApiCalls_generateUUIDs_mEEF38E63695816C9767EA4EC129BFCEA5C3B1718 (void);
+extern void ApiCalls_generateBlobs_m9D9E7663D31F39BF88BACC5AC242C2C729D6D793 (void);
+extern void ApiCalls_verifySignature_mD7C6D11BD442C179D5800EBB7F6D12D6ED903265 (void);
+extern void ApiCalls_getUsage_mC0EE829F616841D9729DA2938D5E820D4257A89E (void);
 extern void ApiCalls_Start_m4EEA45A4612E81471E914BCD18E9D27EE06539B0 (void);
 extern void ApiCalls_OnGenerateIntegersButtonClicked_mBE47CE5572690E18863C0783772DE78A0DA149BA (void);
 extern void ApiCalls_OnGenerateIntegersCompleted_m5BDCB967A094A39CD8058C7A066A7AE9A5E181C9 (void);
+extern void ApiCalls_OnGenerateIntegerSequencesButtonClicked_m49D700D27BE8BF4030C25219FE6DD8DBBC48EF50 (void);
+extern void ApiCalls_OnGenerateIntegerSequencesCompleted_mE809FDD0E6A3A369F7974B8082796B004C6185CC (void);
+extern void ApiCalls_OnGenerateDecimalFractionsButtonClicked_m61FC64B162EA1A1AB1B21566CB428584EC881122 (void);
+extern void ApiCalls_OnGenerateDecimalFractionsCompleted_m7866C40D09B92DC4E0E8EFB43FB0DC84EBD41F57 (void);
+extern void ApiCalls_OnGenerateGaussiansButtonClicked_m68175274729FD0DAFF85B0FCA5D4F7F6E8ADCEA4 (void);
+extern void ApiCalls_OnGenerateGaussiansCompleted_m5B27D9238AD4E9AA1357E21907F918DC804708E5 (void);
+extern void ApiCalls_OnGenerateStringsButtonClicked_m4D4C2F4675BCD3C9A80038202785CD732E24DC2F (void);
+extern void ApiCalls_OnGenerateStringsCompleted_m8F6C705D5A5EF381FE64BF9F39449CDDA30E7F5C (void);
+extern void ApiCalls_OnGenerateUUIDsButtonClicked_m66A8A51BCDFD9A1EB219218BC233BC497EC66E89 (void);
+extern void ApiCalls_OnGenerateUUIDsCompleted_m57FAF69518EE0D2D8B32647BFE69C5DB09322C82 (void);
+extern void ApiCalls_OnGenerateBlobsButtonClicked_m3C8888643FC5914B694F6E1945BFD69887647E35 (void);
+extern void ApiCalls_OnGenerateBlobsCompleted_m60D66F48F022D077000F39F1A79F6826FBA32517 (void);
+extern void ApiCalls_OnVerifySignatureButtonClicked_mB3543B024AD0FCDDBCB48998BC0515D618492C0F (void);
+extern void ApiCalls_OnVerifySignatureCompleted_mF71DEABD354CA52F9E04136904D2B21890AFFF60 (void);
+extern void ApiCalls_OnGetUsageButtonClicked_mC925A83ED23FCE1F96E97F4B91E77BA5A97E7A95 (void);
+extern void ApiCalls_OnGetUsageCompleted_mA33D0E2283FCBD7C2F7ECBE6EC3243F3A2743CC1 (void);
 extern void ApiCalls_DisplayResult_m9017E8F1F8D7C16426E1E8CA780C7B48F77F64D6 (void);
+extern void ApiCalls_DisplayResult2_m60057917FC406118F8F46AE6BDE150A4956CCAA8 (void);
 extern void ApiCalls__ctor_m91597FBF16097DE93A30A89D4D866BA6E0760101 (void);
 extern void GenerateIntegersCallback__ctor_m7F0FFD47954A731C79A998A3DB910B4F9363266C (void);
 extern void GenerateIntegersCallback_Invoke_m94E2F042570EAE4C1019591A5A21B50D118D545C (void);
 extern void GenerateIntegersCallback_BeginInvoke_m6311B5369A725B64D3B8B0414A746DF3314BD595 (void);
 extern void GenerateIntegersCallback_EndInvoke_m766815DB3291B16E101CDAD06BCB3523F2859493 (void);
+extern void GenerateIntegerSequencesCallback__ctor_m3107661A9E4431F38E04F8E9AB546FD433AC92F5 (void);
+extern void GenerateIntegerSequencesCallback_Invoke_mFDC460E753A906440510458EBD9FF6919114A78A (void);
+extern void GenerateIntegerSequencesCallback_BeginInvoke_mABAFD75A062A9D7B7BC0702B30DF5ADB5FDADE34 (void);
+extern void GenerateIntegerSequencesCallback_EndInvoke_m7E8914CF697EA6AFDD39157256D268ACFB900DED (void);
+extern void GenerateDecimalFractionsCallback__ctor_mB82924C815CAF95AFAADAA75E9D2DAD3213F60B8 (void);
+extern void GenerateDecimalFractionsCallback_Invoke_m639484C928CE84D4F898300BEBD4B24CBF5D50A7 (void);
+extern void GenerateDecimalFractionsCallback_BeginInvoke_m0776D807E826AFA4A3A4B88FBFB9749CC938BDE9 (void);
+extern void GenerateDecimalFractionsCallback_EndInvoke_m9AAD2DC7BC1C3AED1706CE7C221C4DF2DBB85EE4 (void);
+extern void GenerateGaussiansCallback__ctor_m0DF5842F10B9676A812B3D2FDCF174C90F3D1DAE (void);
+extern void GenerateGaussiansCallback_Invoke_mEF5BA6667B445CF5E61E03413E847F2BEFBE46FC (void);
+extern void GenerateGaussiansCallback_BeginInvoke_mEDE1C92BD6D02173283A2A65415C42A3414CEEF5 (void);
+extern void GenerateGaussiansCallback_EndInvoke_m83BB75656FBF39C2A3EBE0450633877C2122A84F (void);
+extern void GenerateStringsCallback__ctor_m5F7619D97116DEF0F5396ADDA060F8A63FBCA9B0 (void);
+extern void GenerateStringsCallback_Invoke_m462DF56C60C3619C09A022CB4ECE6F157E3158F5 (void);
+extern void GenerateStringsCallback_BeginInvoke_m2A32F0E2A6382E95108814454C93B462D5808B14 (void);
+extern void GenerateStringsCallback_EndInvoke_mD8A4D80F1052EA154FC3BD214CA837B13F947457 (void);
+extern void GenerateUUIDsCallback__ctor_m8DE0DD49844429D58A5ADC7F2FA22BEE617C4E66 (void);
+extern void GenerateUUIDsCallback_Invoke_m8220B137B75CC4377DBC7D967B97E2ED44CB5CA2 (void);
+extern void GenerateUUIDsCallback_BeginInvoke_m471AEB50B39356F486A68D48D35331C07D7A0B38 (void);
+extern void GenerateUUIDsCallback_EndInvoke_mA301D630D84450CCD3C29F540445295C712C6744 (void);
+extern void GenerateBlobsCallback__ctor_mBBCD9D241878225243BDFB47F977C91206E50528 (void);
+extern void GenerateBlobsCallback_Invoke_mB2B5C44B4425F34A97E43D77F6F5D47EB497A86F (void);
+extern void GenerateBlobsCallback_BeginInvoke_m45E3B45F11944EA2840B3470FA6D0B5BA12BA61F (void);
+extern void GenerateBlobsCallback_EndInvoke_m4C17E1B480AE0A069FCF73461E527C450BAF1633 (void);
+extern void VerifySignatureCallback__ctor_m9124968AE61476350489D704F5A05682FEF35D25 (void);
+extern void VerifySignatureCallback_Invoke_mE18181BD9C97929E15E2FA99E2198300E0CC6E5A (void);
+extern void VerifySignatureCallback_BeginInvoke_m2E6F259066BEC3185CA5CC44608E95D7C75B2582 (void);
+extern void VerifySignatureCallback_EndInvoke_mBEE94E89F2EE844777E5568B34CE77DD2925D493 (void);
+extern void GetUsageCallback__ctor_mABE1B897986D4881109039755050F503DD90C878 (void);
+extern void GetUsageCallback_Invoke_mEA55ABBBFDC4F17AAB3084B51C11BCE7F4F63FA7 (void);
+extern void GetUsageCallback_BeginInvoke_m42C408DBB5433F39966F135A1D18833F4D59E4A8 (void);
+extern void GetUsageCallback_EndInvoke_m34F3E0B17411783A2BA4551ADE405D4DF011A38A (void);
+extern void IntegerSequenceWrapper__ctor_m608EF12AAD88A417466F0B768ACEF171CC6300A4 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[13] = 
+static Il2CppMethodPointer s_methodPointers[71] = 
 {
 	ApiCalls_initializeAPI_m09E9CD1351FE23E5D943B12E197824ECA107CB5B,
 	ApiCalls_generateIntegers_mA99008299FB996BE09C11706C2DF594386F40FD1,
+	ApiCalls_generateIntegerSequences_m1BF569F865752F843680EF9DC8EA24B56DD6D995,
+	ApiCalls_generateDecimalFractions_m549F7EE1422962A88F442C0C32DF425F799C82FF,
+	ApiCalls_generateGaussians_mB1560078C109EE1D22A484BB737C7A7C4718861A,
+	ApiCalls_generateStrings_m46C803A04503A3136D0CCA550AEC4C3389553DAD,
+	ApiCalls_generateUUIDs_mEEF38E63695816C9767EA4EC129BFCEA5C3B1718,
+	ApiCalls_generateBlobs_m9D9E7663D31F39BF88BACC5AC242C2C729D6D793,
+	ApiCalls_verifySignature_mD7C6D11BD442C179D5800EBB7F6D12D6ED903265,
+	ApiCalls_getUsage_mC0EE829F616841D9729DA2938D5E820D4257A89E,
 	ApiCalls_Start_m4EEA45A4612E81471E914BCD18E9D27EE06539B0,
 	ApiCalls_OnGenerateIntegersButtonClicked_mBE47CE5572690E18863C0783772DE78A0DA149BA,
 	ApiCalls_OnGenerateIntegersCompleted_m5BDCB967A094A39CD8058C7A066A7AE9A5E181C9,
+	ApiCalls_OnGenerateIntegerSequencesButtonClicked_m49D700D27BE8BF4030C25219FE6DD8DBBC48EF50,
+	ApiCalls_OnGenerateIntegerSequencesCompleted_mE809FDD0E6A3A369F7974B8082796B004C6185CC,
+	ApiCalls_OnGenerateDecimalFractionsButtonClicked_m61FC64B162EA1A1AB1B21566CB428584EC881122,
+	ApiCalls_OnGenerateDecimalFractionsCompleted_m7866C40D09B92DC4E0E8EFB43FB0DC84EBD41F57,
+	ApiCalls_OnGenerateGaussiansButtonClicked_m68175274729FD0DAFF85B0FCA5D4F7F6E8ADCEA4,
+	ApiCalls_OnGenerateGaussiansCompleted_m5B27D9238AD4E9AA1357E21907F918DC804708E5,
+	ApiCalls_OnGenerateStringsButtonClicked_m4D4C2F4675BCD3C9A80038202785CD732E24DC2F,
+	ApiCalls_OnGenerateStringsCompleted_m8F6C705D5A5EF381FE64BF9F39449CDDA30E7F5C,
+	ApiCalls_OnGenerateUUIDsButtonClicked_m66A8A51BCDFD9A1EB219218BC233BC497EC66E89,
+	ApiCalls_OnGenerateUUIDsCompleted_m57FAF69518EE0D2D8B32647BFE69C5DB09322C82,
+	ApiCalls_OnGenerateBlobsButtonClicked_m3C8888643FC5914B694F6E1945BFD69887647E35,
+	ApiCalls_OnGenerateBlobsCompleted_m60D66F48F022D077000F39F1A79F6826FBA32517,
+	ApiCalls_OnVerifySignatureButtonClicked_mB3543B024AD0FCDDBCB48998BC0515D618492C0F,
+	ApiCalls_OnVerifySignatureCompleted_mF71DEABD354CA52F9E04136904D2B21890AFFF60,
+	ApiCalls_OnGetUsageButtonClicked_mC925A83ED23FCE1F96E97F4B91E77BA5A97E7A95,
+	ApiCalls_OnGetUsageCompleted_mA33D0E2283FCBD7C2F7ECBE6EC3243F3A2743CC1,
 	ApiCalls_DisplayResult_m9017E8F1F8D7C16426E1E8CA780C7B48F77F64D6,
+	ApiCalls_DisplayResult2_m60057917FC406118F8F46AE6BDE150A4956CCAA8,
 	ApiCalls__ctor_m91597FBF16097DE93A30A89D4D866BA6E0760101,
 	GenerateIntegersCallback__ctor_m7F0FFD47954A731C79A998A3DB910B4F9363266C,
 	GenerateIntegersCallback_Invoke_m94E2F042570EAE4C1019591A5A21B50D118D545C,
 	GenerateIntegersCallback_BeginInvoke_m6311B5369A725B64D3B8B0414A746DF3314BD595,
 	GenerateIntegersCallback_EndInvoke_m766815DB3291B16E101CDAD06BCB3523F2859493,
+	GenerateIntegerSequencesCallback__ctor_m3107661A9E4431F38E04F8E9AB546FD433AC92F5,
+	GenerateIntegerSequencesCallback_Invoke_mFDC460E753A906440510458EBD9FF6919114A78A,
+	GenerateIntegerSequencesCallback_BeginInvoke_mABAFD75A062A9D7B7BC0702B30DF5ADB5FDADE34,
+	GenerateIntegerSequencesCallback_EndInvoke_m7E8914CF697EA6AFDD39157256D268ACFB900DED,
+	GenerateDecimalFractionsCallback__ctor_mB82924C815CAF95AFAADAA75E9D2DAD3213F60B8,
+	GenerateDecimalFractionsCallback_Invoke_m639484C928CE84D4F898300BEBD4B24CBF5D50A7,
+	GenerateDecimalFractionsCallback_BeginInvoke_m0776D807E826AFA4A3A4B88FBFB9749CC938BDE9,
+	GenerateDecimalFractionsCallback_EndInvoke_m9AAD2DC7BC1C3AED1706CE7C221C4DF2DBB85EE4,
+	GenerateGaussiansCallback__ctor_m0DF5842F10B9676A812B3D2FDCF174C90F3D1DAE,
+	GenerateGaussiansCallback_Invoke_mEF5BA6667B445CF5E61E03413E847F2BEFBE46FC,
+	GenerateGaussiansCallback_BeginInvoke_mEDE1C92BD6D02173283A2A65415C42A3414CEEF5,
+	GenerateGaussiansCallback_EndInvoke_m83BB75656FBF39C2A3EBE0450633877C2122A84F,
+	GenerateStringsCallback__ctor_m5F7619D97116DEF0F5396ADDA060F8A63FBCA9B0,
+	GenerateStringsCallback_Invoke_m462DF56C60C3619C09A022CB4ECE6F157E3158F5,
+	GenerateStringsCallback_BeginInvoke_m2A32F0E2A6382E95108814454C93B462D5808B14,
+	GenerateStringsCallback_EndInvoke_mD8A4D80F1052EA154FC3BD214CA837B13F947457,
+	GenerateUUIDsCallback__ctor_m8DE0DD49844429D58A5ADC7F2FA22BEE617C4E66,
+	GenerateUUIDsCallback_Invoke_m8220B137B75CC4377DBC7D967B97E2ED44CB5CA2,
+	GenerateUUIDsCallback_BeginInvoke_m471AEB50B39356F486A68D48D35331C07D7A0B38,
+	GenerateUUIDsCallback_EndInvoke_mA301D630D84450CCD3C29F540445295C712C6744,
+	GenerateBlobsCallback__ctor_mBBCD9D241878225243BDFB47F977C91206E50528,
+	GenerateBlobsCallback_Invoke_mB2B5C44B4425F34A97E43D77F6F5D47EB497A86F,
+	GenerateBlobsCallback_BeginInvoke_m45E3B45F11944EA2840B3470FA6D0B5BA12BA61F,
+	GenerateBlobsCallback_EndInvoke_m4C17E1B480AE0A069FCF73461E527C450BAF1633,
+	VerifySignatureCallback__ctor_m9124968AE61476350489D704F5A05682FEF35D25,
+	VerifySignatureCallback_Invoke_mE18181BD9C97929E15E2FA99E2198300E0CC6E5A,
+	VerifySignatureCallback_BeginInvoke_m2E6F259066BEC3185CA5CC44608E95D7C75B2582,
+	VerifySignatureCallback_EndInvoke_mBEE94E89F2EE844777E5568B34CE77DD2925D493,
+	GetUsageCallback__ctor_mABE1B897986D4881109039755050F503DD90C878,
+	GetUsageCallback_Invoke_mEA55ABBBFDC4F17AAB3084B51C11BCE7F4F63FA7,
+	GetUsageCallback_BeginInvoke_m42C408DBB5433F39966F135A1D18833F4D59E4A8,
+	GetUsageCallback_EndInvoke_m34F3E0B17411783A2BA4551ADE405D4DF011A38A,
+	IntegerSequenceWrapper__ctor_m608EF12AAD88A417466F0B768ACEF171CC6300A4,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[13] = 
+static const int32_t s_InvokerIndices[71] = 
 {
-	6595,
-	5093,
-	4422,
-	4422,
-	6453,
-	3596,
-	4422,
-	1934,
-	3575,
-	825,
-	3596,
-	6599,
-	4422,
+	6598,
+	5096,
+	4830,
+	5493,
+	4828,
+	5097,
+	5950,
+	5097,
+	5523,
+	6458,
+	4423,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	4423,
+	6456,
+	3597,
+	3597,
+	4423,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	1935,
+	3576,
+	826,
+	3597,
+	4423,
+	6602,
+	4423,
 };
-static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[9] = 
 {
-	{ 0x06000005, 0,  (void**)&ApiCalls_OnGenerateIntegersCompleted_m5BDCB967A094A39CD8058C7A066A7AE9A5E181C9_RuntimeMethod_var, 0 },
+	{ 0x0600000D, 4,  (void**)&ApiCalls_OnGenerateIntegersCompleted_m5BDCB967A094A39CD8058C7A066A7AE9A5E181C9_RuntimeMethod_var, 0 },
+	{ 0x0600000F, 3,  (void**)&ApiCalls_OnGenerateIntegerSequencesCompleted_mE809FDD0E6A3A369F7974B8082796B004C6185CC_RuntimeMethod_var, 0 },
+	{ 0x06000011, 1,  (void**)&ApiCalls_OnGenerateDecimalFractionsCompleted_m7866C40D09B92DC4E0E8EFB43FB0DC84EBD41F57_RuntimeMethod_var, 0 },
+	{ 0x06000013, 2,  (void**)&ApiCalls_OnGenerateGaussiansCompleted_m5B27D9238AD4E9AA1357E21907F918DC804708E5_RuntimeMethod_var, 0 },
+	{ 0x06000015, 5,  (void**)&ApiCalls_OnGenerateStringsCompleted_m8F6C705D5A5EF381FE64BF9F39449CDDA30E7F5C_RuntimeMethod_var, 0 },
+	{ 0x06000017, 6,  (void**)&ApiCalls_OnGenerateUUIDsCompleted_m57FAF69518EE0D2D8B32647BFE69C5DB09322C82_RuntimeMethod_var, 0 },
+	{ 0x06000019, 0,  (void**)&ApiCalls_OnGenerateBlobsCompleted_m60D66F48F022D077000F39F1A79F6826FBA32517_RuntimeMethod_var, 0 },
+	{ 0x0600001B, 8,  (void**)&ApiCalls_OnVerifySignatureCompleted_mF71DEABD354CA52F9E04136904D2B21890AFFF60_RuntimeMethod_var, 0 },
+	{ 0x0600001D, 7,  (void**)&ApiCalls_OnGetUsageCompleted_mA33D0E2283FCBD7C2F7ECBE6EC3243F3A2743CC1_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	13,
+	71,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
-	1,
+	9,
 	s_reversePInvokeIndices,
 	0,
 	NULL,
